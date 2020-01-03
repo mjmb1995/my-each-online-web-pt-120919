@@ -5,4 +5,5 @@ def my_each(collection) # put argument(s) here
     yield(collection[count])
     count += 1
   end
+  collection
 end
